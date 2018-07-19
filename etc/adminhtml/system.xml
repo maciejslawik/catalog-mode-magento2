@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+@author Maciej Sławik <maciekslawik@gmail.com>
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="catalog_mode" translate="label" type="text" sortOrder="400" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Catalog Mode</label>
+            <tab>catalog</tab>
+            <resource>MSlwk_CatalogMode::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="is_enabled" translate="label comment" type="select" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Catalog Mode enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>If enabled, the customers will only be able to browse your inventory, without purchasing</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
