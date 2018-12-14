@@ -2,6 +2,7 @@
 [![License](https://poser.pugx.org/mslwk/module-catalog-mode/license)](https://packagist.org/packages/mslwk/module-catalog-mode)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/maciejslawik/catalog-mode-magento2/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/maciejslawik/catalog-mode-magento2/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/maciejslawik/catalog-mode-magento2/badges/build.png?b=master)](https://scrutinizer-ci.com/g/maciejslawik/catalog-mode-magento2/build-status/master)
+[![Total Downloads](https://poser.pugx.org/mslwk/module-catalog-mode/downloads)](https://packagist.org/packages/mslwk/module-catalog-mode)
 
 # Magento 2 CatalogMode module #
 
